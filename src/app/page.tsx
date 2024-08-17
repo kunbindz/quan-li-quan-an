@@ -1,3 +1,4 @@
+import { Button } from "@/components/ui/button";
 import Image from "next/image";
 
 export default function Home() {
@@ -25,6 +26,7 @@ export default function Home() {
               priority
             />
           </a>
+         
         </div>
       </div>
 
@@ -38,6 +40,8 @@ export default function Home() {
           priority
         />
       </div>
+
+      <Button >Click me</Button>
 
       <div className="mb-32 grid text-center lg:mb-0 lg:w-full lg:max-w-5xl lg:grid-cols-4 lg:text-left">
         <a
